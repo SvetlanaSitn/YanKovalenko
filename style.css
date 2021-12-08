@@ -1,0 +1,126 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+a{
+    color: inherit;
+}
+
+body{
+    background: url('img/background.jpg') center;
+}
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 4;
+}
+
+/* .bg img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} */
+
+.header__container{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 94px;
+    border-bottom: 4px solid #ebebeb;
+}
+
+.header__logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.header__menu {
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list li:not(:last-child){
+    margin-right: 23px;
+}
+
+.header__link {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    transition-duration: 150ms;
+}
+
+.header__link_active{
+    color: #75aeca;
+}
+
+.header__link:hover{
+    text-decoration: underline;
+}
+
+.page{
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+.page__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.page__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.page__image{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.page__image{
+    text-align: center;
+}
+
+.page__image img{
+    max-width: 100%;
+}
+
+.page__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.page__link{
+    color: #75aeca;
+}
+
+.page__list *:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.page__text_bold{
+    font-size: 30px;
+}
